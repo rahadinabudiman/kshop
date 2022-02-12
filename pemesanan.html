@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/tiny-slider.css">
+    <link rel="stylesheet" href="assets/css/simplebar.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>k. Shop | Belanja Enak Bayarnya Gaenak</title>
+</head>
+
+<body>
+    <!-- Bagian Header -->
+    <header class="bg-light shadow-sm container-header fixed-atas">
+        <div class="navbar navbar-light">
+            <div class="input-group">
+                <a class="navbar-logo" href="index.html"><img src="assets/images/logo.png" width="141" alt="k.Shop"></a>
+                <input type="text" class="form-control rounded" placeholder="Cari Barangmu" disabled>
+                <button class="button-control">Cari Disini</button>
+                <div class="buat-navbar-samping">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="gallery_item.html">Gallery Item</a>
+                    <a href="pemesanan.html">Pemesanan</a>
+                    <a href="kontak.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Bagian Sidebar -->
+    <aside class="offcanvas offcanvas-expand" id="sideNav" style="max-width: 0rem;">
+        <div class="sidebar">
+            <a href="index.html">Home</a>
+            <a href="gallery_item.html">Gallery Item</a>
+            <a class="active" href="pemesanan.html">Pemesanan</a>
+            <a href="kontak.html">Contact</a>
+        </div>
+    </aside>
+
+
+    <!-- Bagian Konten -->
+    <main class="offcanvas-enabled">
+        <section class="ps-lg-4 pe-lg-3 pt-4">
+            <div class="px-3 pt-2">
+                <h1>Order Form - k.Shop</h1>
+                <form action="#" method="POST">
+                    <div class="user-details">
+                        <div class="input-boxuser">
+                            <span class="details">Username</span>
+                            <input type="text" placeholder="Enter your Username" required>
+                        </div>
+                        <div class="input-boxuser">
+                            <span class="details">Password</span>
+                            <input type="password" placeholder="Enter your Password" required>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Name</span>
+                            <input type="text" placeholder="Enter your Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Email</span>
+                            <input type="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Nama Barang</span>
+                            <input type="text" placeholder="Enter Name Product" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Jumlah Barang</span>
+                            <input type="text" placeholder="Enter The Number of Item" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">No Handphone</span>
+                            <input type="text" placeholder="Enter your number" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Alamat</span>
+                            <input type="text" placeholder="Enter your Address" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="pesan-sekarang" name="submit"
+                        onclick="alert('Pesanan Diproses!')">Submit</button>
+                    <button type="reset" class="pesan-sekarang" name="reset">Reset</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- Bagian Footer -->
+    <div class="justify-content-between align-items-center mx-auto px-3">
+        <div class="gelap opacity-50 py-3">© All rights reserved. Made by Rahadina Budiman Sundara - k.Shop</a>
+        </div>
+    </div>
+    <script src="assets/js/catalog.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/theme.min.js"></script>
+    <script src="assets/js/simplebar.min.js"></script>
+</body>
+
+</html>
